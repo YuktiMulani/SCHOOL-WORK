@@ -1,0 +1,6 @@
+﻿  CrimeStatistics.cpp
+C:\Yukti\OOP345\OOP-Workshops\WS07\part 2\w7\CrimeStatistics.cpp(203,30): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+C:\Yukti\OOP345\OOP-Workshops\WS07\part 2\w7\CrimeStatistics.cpp(218,27): warning C4244: 'initializing': conversion from '__int64' to 'unsigned int', possible loss of data
+  w7_p2.cpp
+  Generating Code...
+  w7.vcxproj -> C:\Yukti\OOP345\OOP-Workshops\WS07\part 2\w7\x64\Debug\w7.exe

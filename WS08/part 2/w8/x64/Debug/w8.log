@@ -1,0 +1,9 @@
+﻿  w8_p2.cpp
+  WritingRecord.cpp
+C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\GeneratingList.h(39,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\GeneratingList.h(38): message : while compiling class template member function 'bool sdds::GeneratingList<sdds::EmployeeWage>::checkLuhn(const std::string &)'
+C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\WritingRecord.cpp(24): message : see reference to function template instantiation 'bool sdds::GeneratingList<sdds::EmployeeWage>::checkLuhn(const std::string &)' being compiled
+C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\WritingRecord.cpp(9): message : see reference to class template instantiation 'sdds::GeneratingList<sdds::EmployeeWage>' being compiled
+C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\GeneratingList.h(46,21): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  Generating Code...
+  w8.vcxproj -> C:\Yukti\OOP345\OOP-Workshops\WS08\part 2\w8\x64\Debug\w8.exe

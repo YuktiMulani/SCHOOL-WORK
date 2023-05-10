@@ -1,0 +1,40 @@
+/*****************
+			Workshop-5
+			(Reflection)
+	Name      : Loveneet Kaur
+	Student ID: 15002210
+	Email     : loveneet-kaur2@myseneca.ca
+	Date      : 16/10/2022
+	I have done all the coding by myself and
+	only copied the code that my professor provided
+	to complete my workshops and assignments.
+*******************/
+
+I discovered the following things in this workshop:
+-create and implement a templated class that manages dynamic memory allocation and deallocation
+
+-create a function object using coding.
+
+-create and implement a lambda expression.
+
+-create a member function that executes a callback function when given its address.
+
+-throw a variety of exceptions
+
+-distinguish between different exception types
+
+
+
+Function templates are unique functions that can communicate with generic types.
+
+We can create a function template as a result, and its functionality can be used for
+
+without having to duplicate the entire code for every type or class.
+
+In C++, template arguments can be used to accomplish this.
+
+It is a useful technique for creating functors or anonymous function objects. Being able to declare it locally in the place where we wish to call it or pass it as an argument to a function makes it useful.
+
+To throw an exception in C++, use the throw keyword inside of a try block. Programmers can define specific exceptions with the throw keyword. Exception handlers are declared in C++ after the try block, in the catch keyword.
+
+In conclusion, I gained a lot of new knowledge by completing this and was able to do it with the aid of the notes that were given to us.

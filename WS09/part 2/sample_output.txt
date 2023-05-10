@@ -1,0 +1,35 @@
+Command Line: ws map.txt map.dat
+
+***Displaying original Map***
+W|<|>...---....|AHAHAHAHAHA---
+|<|>...---|^|...X|BBBBBB|....|
+|^|-|^|-.00....0..|.00....0..|
+||^CCC4567.....|^||..00|.0.0.|
+|^||...|^|...X|BBBBBB|.|X....|
+|^|------|^|-.00....0..|0----|
+|^|...X|BBB|^|-.00....0..|BBB|
+||^|-.00....0..|^CCCCCC......|
+|..12340000...|......1182APPLE
+|??-----X..|^|-.00....0..|...|
+---SEC|^|-.00....0..|RETS-----
+|^|------|^|-.00....0..|0----|
+
+***Enscribing Map and displaying cleared current Map***
+The map is empty!
+
+***Recalling Map and displaying current Map***
+W|<|>...---....|AHAHAHAHAHA---
+|<|>...---|^|...X|BBBBBB|....|
+|^|-|^|-.00....0..|.00....0..|
+||^CCC4567.....|^||..00|.0.0.|
+|^||...|^|...X|BBBBBB|.|X....|
+|^|------|^|-.00....0..|0----|
+|^|...X|BBB|^|-.00....0..|BBB|
+||^|-.00....0..|^CCCCCC......|
+|..12340000...|......1182APPLE
+|??-----X..|^|-.00....0..|...|
+---SEC|^|-.00....0..|RETS-----
+|^|------|^|-.00....0..|0----|
+
+***Finding treasure on current Map***
+***Found 5 treasure on current Map***

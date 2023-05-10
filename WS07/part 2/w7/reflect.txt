@@ -1,0 +1,37 @@
+/*****************
+			Workshop-7
+			(Reflection)
+	Name      : Yukti Manoj Mulani
+	Student ID: 156809212
+	Email     : Ymulani@myseneca
+	Date      : 13/11/2022
+	I have done all the coding by myself and
+	only copied the code that my professor provided
+	to complete my workshops and assignments.
+*******************/
+
+I learned the following topics from this workshop:
+
+Use the numeric library to accumulate data values,
+use a lambda expression to specify an operation on 
+each value in a data set, use the algorithm library 
+to sort data values and copy data from a file into a sequential container.
+
+The notes provided to us and lecture made the workshop smooth to work with.
+I have used the following library functions in the workshop:-
+1.substr()
+2.erase()
+3.remove()
+4.is_open()
+5.begin()
+6.end()
+7.stoi()
+8.pushback()
+9.peek()
+10.setstate()
+11.for_each()
+12.accumalate()
+13.sort()
+14.transform()
+15.count_if()
+16.copy_if()

@@ -1,0 +1,23 @@
+/*****************
+			Workshop-6
+			(Reflection)
+	Name      : Yukti Manoj Mulani
+	Student ID: 156809212
+	Email     : Ymulani@myseneca
+	Date      : 16/10/2022
+	I have done all the coding by myself and
+	only copied the code that my professor provided
+	to complete my workshops and assignments.
+*******************/
+
+In the workshop I leaqrned the following content.I have also done the workshop by my own.
+
+-manage polymorphic objects using the vector container of the STL
+
+-move a dynamically allocated object into a container
+
+-code a range-based iteration on the objects in a container
+
+-report and handle an exception
+
+There were some errors in the workshop but I referred to the notes provided to us and after that i was able to debug the problems.

@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+//Name - Yukti Manoj Mulani
+//Email - Ymulani@myseneca.ca
+//Student ID - 156809212
+//Date - 02 / 10 / 2022 (dd / mm / yyyy)
+/////////////////////////////////////////////////////////////////////////////////////////////
+This workshop taught me how to create template classes, specialise member functions of 
+templated classes to handle specific types, and derive templated classes from other templated classes.
+template <typename T, size_t CAPACITY>
+    bool Queue<T, CAPACITY>::push(const T &item)
+    {
+
+        bool result = false;
+        if (m_block < CAPACITY)
+        {
+            m_data[m_block] = item;
+            m_block++;
+            result = true;
+        }
+        return result;
+    }
+This is a sample of the code I wrote for this workshop; as is obvious, I declared a template, 
+added push() support for the templated "T," and added additional logical components to output 
+results. Push made it simple for me to access variables because I could utilise them across the 
+entire programme, even after changes were made!

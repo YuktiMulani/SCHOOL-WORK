@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////////////////////////////
+//Name - Yukti Manoj Mulani
+//Email - Ymulani@myseneca.ca
+//Student ID - 156809212
+//Date - 09 / 10 / 2022 (dd / mm / yyyy)
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+The following are the types i have chosen for the identifiers in the reservation module.
+reservation id - string beacause this conatins mix data including numbers and letters too.
+name-string because all the names are strings basically.
+email-string because email also contains a mix of characters.
+no of people - size_t, day-size_t,hours-size_t because we wanted to return the size of the object in bytes.
+
+
+
+An association between two datasets, such as classes or objects, known as a "aggregation," occurs
+ when the concerned objects do not directly depend on one another for either their production or 
+operation. Therefore, the status of the other object is unaffected by the manipulation of the first 
+object. Changes can be made with this association without suffering any loss.
+
+The relationship between two datasets in which the objects or classes are directly dependent on one 
+other for their generation, storage, operation, etc. is described by a special sort of aggregation 
+called composition. As a result, any change to one of the databases will immediately affect the other 
+dataset.

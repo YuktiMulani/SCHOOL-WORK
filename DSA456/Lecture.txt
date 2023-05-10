@@ -1,0 +1,285 @@
+1. Python uses print to show output on the console
+
+print("Hello World")
+
+2. Variables can be used to store and show information as well
+
+first = "Seneca"
+last = "College"
+
+print(first, last)
+
+3. f strings can be used to show messages with formats
+
+print(f"Hello, {first} {last}")
+
+4. format can also be used to show formatted strings
+
+print("Hello, {} {}".format(first, last))
+
+5. Python provides several string functions
+
+message = "seneca"
+
+print(message.upper())
+
+6. Whitespaces can be handled using string functions as well. Below can help us in removing whitespaces
+
+message = " Seneca "
+result = message.strip()
+print(result, "has", len(result), "letters")
+
+7. Python variables are handy in dealing with numeric values as well
+
+i = 5.65
+j = 6.21
+
+result = i + j
+
+print("Result: {}".format(i, j))
+
+8. Floating point values can be used in formatted strings as well
+
+i, j = 5, 6
+result = i/j
+print("Result: {:.2f}".format(result))
+
+9. Conditional statements can be used in python similar to other programming languages:
+
+num = 6
+
+if (num%2 == 0):
+    print("Even")
+else:
+    print("Odd")
+
+10. Compound statements can be used for conditions:
+
+name = "Seneca"
+campus = "Markham"
+
+if name == "Seneca" and campus == "Markham":
+    print("SIA Campus")
+else:
+    print("Other Campus")
+
+11. not can be used in conditional statements
+
+name = "Seneca "
+
+if (name not in "Seneca"):
+    print("I dont like it")
+else:
+    print("I like it")
+
+It can be used as ! for numbers
+
+num = 6
+
+if (num != 5):
+    print("Its not a five")
+
+Booleans can be used with not as well
+
+flag = False
+
+if (not flag):
+    print("Not False")
+
+12. if elif chains can be used as well
+
+marks = 95
+
+if marks >= 90:
+    print('A')
+elif marks >= 80:
+    print('B')
+elif marks >=70:
+    print('C')
+else:
+    print('D or lower')
+
+13. An input can be taken in python using input which returns a string
+
+number = input("Enter a number: ")
+
+if (int(number) % 2 == 0): # int is used here to cast string to integer
+    print("Even")
+else:
+    print("Odd")
+
+14. While loops are similar in python to other programming languages:
+
+i = 1
+
+while (i <= 5):
+    print(i)
+    i+=1
+
+15. Loops can be used with strings as well
+
+
+prompt = input ("Enter a fruit (q to quit): ")
+
+while (prompt != 'q'):
+    prompt = input ("Enter a fruit (q to quit): ")
+
+16. break statement can be used to break from a loop
+
+prompt = input ("Enter a fruit (q to quit): ")
+
+while (True):
+    if (prompt == 'q'):
+        break
+    prompt = input ("Enter a fruit (q to quit): ")
+
+17. Another variation is for loop
+
+for i in range(0, 10, 2): # range (starting,ending,step)
+    print(i)
+
+18. Lists are collection of elements like arrays in other programming languages
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+print(fruits)
+
+19. Lists can be indexed as well
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+print(fruits[0])
+
+20. String functions can be applied to list of string values
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+print(fruits[0].upper())
+
+21. Python allows reverse indexing as well
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+print(fruits[-1])
+
+22. Lists can be modified
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits[-1] = "Pine Apple"
+print(fruits)
+
+23. Elements can be appended to a list
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.append("Pine Apple")
+print(fruits)
+
+24. Elements can be added at a specific index as well using insert function
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.insert(1, "Pine Apple")
+print(fruits)
+
+25. Elements can be removed from a list as well
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.remove("Apple")
+print(fruits)
+
+26. pop method helps in removing the last elements from the lists
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.pop()
+print(fruits)
+
+27. pop with index can be used to remove element using an index value
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.pop(0)
+print(fruits)
+
+28. lists can be sorted
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+fruits.sort()
+print(fruits)
+
+29. len is a handy function to find the length of a list
+
+fruits = ["Apple", "Banana", "Peach", "Orange"]
+print(len(fruits))
+
+30. List of numbers can be used
+
+numbers = [2, 1, 5, 7, 3]
+numbers.sort()
+print(numbers)
+
+31. Loops work very well with lists
+
+numbers = [2, 1, 5, 7, 3, 20, 18, 9, 16]
+for i in numbers:
+    if i%2 == 0:
+        print(i)
+
+32. Slicing is very handy in python
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[0:5])
+
+Another way of showing the whole list using slicing is:
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[:])
+
+No need to specify the end index if you want to go till the end of the list:
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[5:])
+
+Slicing allows increments as well
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[0:10:2])
+
+Incrementing using slicing to show even numbers:
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[1::2])
+
+Lists can be reversed using slicing
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(numbers[::-1])
+
+33. Another popular data structure used in python are dictionaries which are used to store key value pairs
+
+students = {"name": "John"}
+print(students['name'])
+
+Dictionaries can have more than 1 key value pair
+
+students = {"name": "John", 'age':38, 'city':'Toronto'}
+
+print(students['city'])
+
+Another key can be added to a dictionary
+
+students = {"name": "John", 'age':38, 'city':'Toronto'}
+students['Country'] = 'Canada'
+print(students)
+
+Dictionary values can be modified
+
+students = {"name": "John", 'age':38, 'city':'Toronto'}
+students['name'] = 'Steves'
+print(students)
+
+Deep indexing are possible in Python as below:
+
+students = {"name": ["John", "Steve", "Bill"],
+            "age" : [38, 12, 78]
+            }
+print('Age of {} is {}'.format(students['name'][0], students['age'][0]))
+
+Dictionaries are iteratable 
+
+students = {"name": ["John", "Steve", "Bill"],
+            "age" : [38, 12, 78]
+            }
+
+for key, value in students.items():
+    print('Key:', key)
+    print('Value:', value)

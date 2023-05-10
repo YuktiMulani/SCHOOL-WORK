@@ -1,0 +1,64 @@
+/////////////////////////////////////////////////////////////////////////////////////////////
+Name       - Yukti Manoj Mulani
+Email      - Ymulani@myseneca.ca
+Student ID - 156809212
+Date       - 22/09/2022 (dd/mm/yyyy)
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+As this was the first workshop of our semester, although it wasn't quite tough but still it was a 
+pretty interesting one which touched upon numerous different concepts. Most of the concepts were
+old concepts being brushed up like namespaces and header guards. But there were also quite a few new 
+concepts that were introduced like aspects of linkage, storage duration, and operating system interfaces.
+
+To begin with, in completion of this workshop I was introduced to a completely new concepted about
+linkage which is accessing a variable defined in a different translation unit and also taught about
+the difference between internal and external linkage. So I learned that exterenal linkage is when an
+entity is declared within a translation unit and used in another translation unit. This is done by 
+the use of "extern" keyword. 
+
+for example, In my code I had declared 
+
+extern double g_taxrate;
+extern double g_discount;
+
+in carads.h but g_taxrate and g_discount were also being accessed in w1_p2.cpp. Also Ineternal linkage is 
+when an entity is declared within a scope and used in another scope. This is done by the use of "static" 
+keyword. Also got to know that by the use of this keyword we declare a local variable that resides in 
+memory throughout the lifetime of the program.
+
+Secondly, while completeion of this workshop I also learned to receive program arguments from the command 
+line, which was a completely new procedure for me. I learned that in order to do this we need to update our
+main method to take in arguments and its definition becomes :-
+
+int main(int argc, char** argv)
+{
+
+// your code
+
+}
+
+In this workshop, I also brushed upon the concept that I could guard a class definition from duplication in
+a translation unit by the use of header guards and the way I have used them in my carads.h is as follows:-
+
+#ifndef SDDS_CARADS_H
+#define SDDS_CARADS_H
+
+// all declartion and prototypes
+
+#endif
+
+Finaly, the changes that I made in upgrading my "Cars" class in part 2 to accept and manage a user-defined 
+string of any length was that instead of declaring an array of a particular size like:-
+
+		char m_carBrand[10] = { '\0' };
+
+I made use of a pointer syntax :-
+
+		char* m_carBrand = nullptr;
+
+Also I dynamically allocated and deallocated memory for this "m_carBrand" attribute by the use of "new" and 
+"delete[]" keywords respectively.
+
+Lastly, I didn't face any major difficulty while completing this workshop and any smaller problem was sorted by 
+the usage of debugging techniques by application of breakpoints.

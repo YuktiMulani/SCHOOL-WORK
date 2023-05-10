@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////////////////////////////////
+Name       - Yukti Manoj Mulani
+Email      - Ymulani@myseneca.ca
+Student ID - 156809212
+Date       - 25/09/2022 (dd/mm/yyyy)
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+
+This  workshop taught me that moving operation is faster than copying.The move assignment 
+operator takes an r-value reference only.Moving enables you to leave the source in an incorrect 
+state so you can take its resources, making it faster. For instance, a move can simply steal a 
+pointer to a big block of allocated memory held by an object, whereas a copy needs to allocate 
+its own memory and copy the entire memory block.
+
+In this workshop I used the getline function of fstream to read the input file with the 
+deliminator as ',' because csv means coma separated file. In my opinion we can avoid rereading 
+the file my storing all its data in an array and then scanning the array instead of rereading 
+the file itself.
+
+the difference between steady_clock and a system_clock is that when a system clock is in your hand, 
+you would refer to it as a watch, and it would display the current time. If you were holding a steady 
+clock in your hand, you would refer to it as a stopwatch since it would show you how quickly someone 
+completed a lap but not the current time.when we want to access the current time we should use the 
+system_clock and when we want to set a timer we can use a steady_clock.
+

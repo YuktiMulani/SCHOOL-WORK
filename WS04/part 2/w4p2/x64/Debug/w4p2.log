@@ -1,0 +1,7 @@
+﻿  ConfirmationSender.cpp
+  Reservation.cpp
+C:\Yukti\OOP345\OOP-Workshops\WS04\part 2\w4p2\Reservation.cpp(9,43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Restaurant.cpp
+  w4_p2.cpp
+  Generating Code...
+  w4p2.vcxproj -> C:\Yukti\OOP345\OOP-Workshops\WS04\part 2\w4p2\x64\Debug\w4p2.exe
